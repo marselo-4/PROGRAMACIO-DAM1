@@ -11,7 +11,7 @@ public class escalera {
 		int totalvueltas = scan_1.nextInt();
 		int vueltas = 0;
 		for(vueltas=0;vueltas<(totalvueltas+1);vueltas++) {
-			String escalera = "123456789";
+			String escalera = "123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789";
 			String total = escalera.substring(0,vueltas);
 			System.out.println(total);
 			
