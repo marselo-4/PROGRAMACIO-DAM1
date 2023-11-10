@@ -67,13 +67,13 @@ public class ppt {
 			eleccion1 = scan.next();
 			eleccion_ia = rand.nextInt(3);
 			
-			if(eleccion_ia == 1) {
+			if(eleccion_ia == 0) {
 				eleccion2 = "piedra";
 				System.out.println("La inteligencia artificial ha elegido "+eleccion2);
-			}if(eleccion_ia == 2) {
+			}if(eleccion_ia == 1) {
 				eleccion2 = "papel";
 				System.out.println("La inteligencia artificial ha elegido "+eleccion2);
-			}if(eleccion_ia == 3) {
+			}if(eleccion_ia == 2) {
 				eleccion2 = "tijera";
 				System.out.println("La inteligencia artificial ha elegido "+eleccion2);
 			}
