@@ -2,7 +2,7 @@ package Exersicis;
 
 import java.util.Scanner;
 
-public class random {
+public class tresenraya_matrius {
 
     static Scanner scan = new Scanner(System.in);
 
